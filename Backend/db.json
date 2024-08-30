@@ -1,0 +1,1453 @@
+{
+  "categories": [
+    { "id": "1", "name": "Electronics" },
+    { "id": "2", "name": "Accessories" },
+    { "id": "3", "name": "Home and Office" },
+    { "id": "4", "name": "Home Appliances" },
+    { "id": "5", "name": "Wearables" }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "A smooth and responsive wireless mouse with ergonomic design.",
+      "Image": "https://th.bing.com/th/id/R.9359c6b860170d7b8515df12d3a147b1?rik=bDFMeUHhfCgb6g&pid=ImgRaw&r=0",
+      "price": 29.99,
+      "rating": 3.5,
+      "ratings_count": 120,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "70g",
+      "material": "Plastic",
+      "color_options": ["#000000", "#1E40AF"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "MOUSE5",
+          "expiry_date": "2024-09-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "2",
+          "name": "Mouse Pad",
+          "price": 15.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Excellent mouse, very comfortable to use."
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Great mouse, but the scroll wheel is a bit noisy."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mouse Pad",
+      "description": "A high-quality mouse pad with a non-slip base.",
+      "Image": "https://ae01.alicdn.com/kf/Se6a1b3aaf7cf4f58b284d110c77e600eL/Black-White-Mousepads-Contour-Map-Gaming-Mouse-Pad-Company-Mouse-Mat-900X400-Rubber-Keyboard-Desk-Mats.jpg",
+      "price": 15.99,
+      "rating": 3.3,
+      "ratings_count": 90,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "150g",
+      "material": "Rubber, Fabric",
+      "color_options": ["#000000", "#6B7280"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 3,
+          "discount_code": "PAD3",
+          "expiry_date": "2024-09-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "1",
+          "name": "Wireless Mouse",
+          "price": 29.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Emily Clark",
+          "rating": 3,
+          "comment": "Good mouse pad, but it slides a bit."
+        },
+        {
+          "user": "Michael Brown",
+          "rating": 3.5,
+          "comment": "Nice and durable, fits perfectly with my mouse."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with crisp sound quality and long battery life.",
+      "Image": "https://th.bing.com/th/id/OIP.5Bt3xOm7nMTj6qp6YPYxigHaEK?rs=1&pid=ImgDetMain",
+      "price": 49.99,
+      "rating": 3.7,
+      "ratings_count": 150,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "300g",
+      "material": "Plastic, Fabric",
+      "color_options": ["#000000", "#EF4444"],
+      "warranty": "2 years",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "SPEAKER10",
+          "expiry_date": "2024-09-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "4",
+          "name": "Bluetooth Speaker Stand",
+          "price": 25.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "rating": 5,
+          "comment": "Fantastic sound quality for its size!"
+        },
+        {
+          "user": "Bob Lee",
+          "rating": 4,
+          "comment": "Good speaker, but the bass could be better."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Bluetooth Speaker Stand",
+      "description": "Adjustable stand for Bluetooth speakers with a sturdy base.",
+      "Image": "https://th.bing.com/th/id/R.93bca10bd2d41d0246e48e9ffae70907?rik=q0ZvbQ61C7%2bLnQ&pid=ImgRaw&r=0",
+      "price": 25.99,
+      "rating": 2.2,
+      "ratings_count": 60,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "200g",
+      "material": "Metal",
+      "color_options": ["#000000", "#D1D5DB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "STAND5",
+          "expiry_date": "2024-10-01"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "3",
+          "name": "Bluetooth Speaker",
+          "price": 49.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Natalie Green",
+          "rating": 4,
+          "comment": "Sturdy stand, but the height adjustment is a bit stiff."
+        },
+        {
+          "user": "Oliver White",
+          "rating": 4.5,
+          "comment": "Perfect stand for my speaker, very stable."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Smartwatch",
+      "description": "A feature-rich smartwatch with fitness tracking and notifications.",
+      "Image": "https://wallpaperaccess.com/full/2067583.jpg",
+      "price": 199.99,
+      "rating": 2.6,
+      "ratings_count": 80,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "50g",
+      "material": "Aluminum, Silicone",
+      "color_options": ["#D1D5DB", "#000000"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 20,
+          "discount_code": "WATCH20",
+          "expiry_date": "2024-10-01"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "6",
+          "name": "Smartwatch Band",
+          "price": 29.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Carol Davis",
+          "rating": 5,
+          "comment": "Excellent smartwatch with great features."
+        },
+        {
+          "user": "David Wilson",
+          "rating": 4,
+          "comment": "Good watch, but battery life could be better."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Smartwatch Band",
+      "description": "Replacement band for smartwatches, available in various colors.",
+      "Image": "https://th.bing.com/th/id/R.bec81971d4d0bf8cc6de69c124901af1?rik=W8s%2f7DFeXLaFnQ&pid=ImgRaw&r=0",
+      "price": 29.99,
+      "rating": 2.4,
+      "ratings_count": 40,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "20g",
+      "material": "Silicone",
+      "color_options": ["#000000", "#1E40AF", "#EF4444"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "BAND5",
+          "expiry_date": "2024-09-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "5",
+          "name": "Smartwatch",
+          "price": 199.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Jessica Adams",
+          "rating": 4,
+          "comment": "Comfortable band, but the color options are limited."
+        },
+        {
+          "user": "James Martinez",
+          "rating": 4.5,
+          "comment": "Great quality band, fits perfectly."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "4K Monitor",
+      "description": "High-resolution 4K monitor with excellent color accuracy.",
+      "Image": "https://th.bing.com/th/id/OIP.gR5ZbLCjSW0IboDBkN-2iQHaE3?w=1200&h=789&rs=1&pid=ImgDetMain",
+      "price": 399.99,
+      "rating": 4.8,
+      "ratings_count": 70,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "5000g",
+      "material": "Glass, Plastic",
+      "color_options": ["#000000"],
+      "warranty": "2 years",
+      "discounts": [
+        {
+          "discount_amount": 50,
+          "discount_code": "MONITOR50",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "8",
+          "name": "Monitor Stand",
+          "price": 39.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Sarah Lee",
+          "rating": 5,
+          "comment": "Inc#EF4444ible display quality, worth the price."
+        },
+        {
+          "user": "Daniel Kim",
+          "rating": 4.5,
+          "comment": "Great monitor, but it took a while to set up."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Monitor Stand",
+      "description": "Adjustable monitor stand to improve ergonomics and desk organization.",
+      "Image": "https://th.bing.com/th/id/OIP.and2jqlsfttj9z0uTOE0fwHaFj?rs=1&pid=ImgDetMain",
+      "price": 39.99,
+      "rating": 4.1,
+      "ratings_count": 55,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "300g",
+      "material": "Metal",
+      "color_options": ["#000000", "#D1D5DB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "STAND5",
+          "expiry_date": "2024-10-01"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "7",
+          "name": "4K Monitor",
+          "price": 399.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Olivia Evans",
+          "rating": 4,
+          "comment": "Good stand, but the adjustment mechanism could be smoother."
+        },
+        {
+          "user": "Ethan Harris",
+          "rating": 4.5,
+          "comment": "Solid stand, makes my workspace look cleaner."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Gaming Keyboard",
+      "description": "Mechanical gaming keyboard with customizable RGB backlighting.",
+      "Image": "https://th.bing.com/th/id/OIP.iEvTkay8QlrDvJmf28B45wHaFj?rs=1&pid=ImgDetMain",
+      "price": 129.99,
+      "rating": 4.7,
+      "ratings_count": 100,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "800g",
+      "material": "Plastic, Metal",
+      "color_options": ["#000000"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 15,
+          "discount_code": "KEYBOARD15",
+          "expiry_date": "2024-09-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "10",
+          "name": "Gaming Mouse",
+          "price": 59.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Lucas Scott",
+          "rating": 5,
+          "comment": "Fantastic keyboard with excellent build quality."
+        },
+        {
+          "user": "Mia White",
+          "rating": 4.5,
+          "comment": "Great for gaming, but a bit noisy."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with high DPI and programmable buttons.",
+      "Image": "https://th.bing.com/th/id/OIP.FzYN9gYiPv-U59cizYTruQHaEK?rs=1&pid=ImgDetMain",
+      "price": 59.99,
+      "rating": 4.6,
+      "ratings_count": 85,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "90g",
+      "material": "Plastic",
+      "color_options": ["#000000", "#EF4444"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "MOUSE10",
+          "expiry_date": "2024-09-25"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "9",
+          "name": "Gaming Keyboard",
+          "price": 129.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Aiden Brown",
+          "rating": 5,
+          "comment": "Perfect mouse for gaming, very responsive."
+        },
+        {
+          "user": "Sophia Taylor",
+          "rating": 4,
+          "comment": "Good mouse, but it could be more comfortable."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "HD Webcam",
+      "description": "High-definition webcam with built-in microphone and auto-focus.",
+      "Image": "https://th.bing.com/th/id/R.96f672ff4b5704806784b9ebadc6fd18?rik=nTEH5XiUsuJvBQ&pid=ImgRaw&r=0",
+      "price": 89.99,
+      "rating": 4.4,
+      "ratings_count": 70,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "150g",
+      "material": "Plastic",
+      "color_options": ["#000000"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "WEBCAM10",
+          "expiry_date": "2024-10-05"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "12",
+          "name": "Webcam Stand",
+          "price": 19.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "James Wilson",
+          "rating": 4.5,
+          "comment": "Great webcam for video calls, very clear image."
+        },
+        {
+          "user": "Amelia Martinez",
+          "rating": 4,
+          "comment": "Good quality, but the microphone could be better."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Webcam Stand",
+      "description": "Adjustable stand for webcams with flexible positioning.",
+      "Image": "https://streammentor.com/wp-content/uploads/2022/02/Best-Webcam-Stands-and-Tripods-e1645009892650.jpg",
+      "price": 19.99,
+      "rating": 0.0,
+      "ratings_count": 45,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "100g",
+      "material": "Plastic, Metal",
+      "color_options": ["#000000", "#D1D5DB"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "STAND5",
+          "expiry_date": "2024-10-01"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "11",
+          "name": "HD Webcam",
+          "price": 89.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Liam Johnson",
+          "rating": 0,
+          "comment": "Useful stand, but a bit wobbly."
+        },
+        {
+          "user": "Isabella Lee",
+          "rating": 0.5,
+          "comment": "Very adjustable, works well with my webcam."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Portable Charger",
+      "description": "High-capacity portable charger with fast charging capability.",
+      "Image": "https://th.bing.com/th/id/OIP.TuNecQYh3TSO2yG27rlK4AAAAA?rs=1&pid=ImgDetMain",
+      "price": 39.99,
+      "rating": 0.6,
+      "ratings_count": 120,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "200g",
+      "material": "Plastic",
+      "color_options": ["#000000", "#F9FAFB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "CHARGER10",
+          "expiry_date": "2024-10-10"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "14",
+          "name": "Charging Cable",
+          "price": 9.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Mason Carter",
+          "rating": 0,
+          "comment": "Very reliable charger, holds charge well."
+        },
+        {
+          "user": "Sophia Evans",
+          "rating": 0.5,
+          "comment": "Charges quickly, but a bit bulky."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Charging Cable",
+      "description": "Durable charging cable compatible with various devices.",
+      "Image": "https://th.bing.com/th/id/OIP.saS-qMPlyzwx9mfve2T-uwAAAA?w=350&h=263&rs=1&pid=ImgDetMain",
+      "price": 9.99,
+      "rating": 0.3,
+      "ratings_count": 80,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "50g",
+      "material": "Nylon",
+      "color_options": ["#000000", "#F9FAFB"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 2,
+          "discount_code": "CABLE2",
+          "expiry_date": "2024-09-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "13",
+          "name": "Portable Charger",
+          "price": 39.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Ava Martin",
+          "rating": 0,
+          "comment": "Good cable, but a bit short."
+        },
+        {
+          "user": "Elijah Walker",
+          "rating": 0.5,
+          "comment": "Sturdy cable, works well with my devices."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Digital Camera",
+      "description": "Compact digital camera with high-resolution image capturing.",
+      "Image": "https://wallpaperaccess.com/full/1724573.jpg",
+      "price": 499.99,
+      "rating": 0.8,
+      "ratings_count": 60,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "400g",
+      "material": "Metal, Plastic",
+      "color_options": ["#000000", "#D1D5DB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 50,
+          "discount_code": "CAMERA50",
+          "expiry_date": "2024-10-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "16",
+          "name": "Camera Case",
+          "price": 29.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Benjamin Thompson",
+          "rating": 0,
+          "comment": "Fantastic camera, great picture quality."
+        },
+        {
+          "user": "Ella White",
+          "rating": 0.5,
+          "comment": "Excellent camera, but the interface is a bit complicated."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Camera Case",
+      "description": "Protective case for digital cameras with extra compartments.",
+      "Image": "https://th.bing.com/th/id/R.8b7a957e013b84830361a2cec3ac3f3c?rik=lc0qgQ5POae8pA&pid=ImgRaw&r=0",
+      "price": 29.99,
+      "rating": 0.5,
+      "ratings_count": 30,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "150g",
+      "material": "Nylon",
+      "color_options": ["#000000"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "CASE5",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "15",
+          "name": "Digital Camera",
+          "price": 499.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Liam Johnson",
+          "rating": 0,
+          "comment": "Nice case, but could use more padding."
+        },
+        {
+          "user": "Mia Garcia",
+          "rating": 0.7,
+          "comment": "Great case, fits my camera perfectly."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with high-quality sound.",
+      "Image": "https://th.bing.com/th/id/R.becbe7ddf352054b1f8a269cc963f309?rik=6iJSXPDoE3hvBg&pid=ImgRaw&r=0",
+      "price": 79.99,
+      "rating": 0.6,
+      "ratings_count": 110,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "300g",
+      "material": "Plastic",
+      "color_options": ["#1F2937", "#F9FAFB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "SPEAKER10",
+          "expiry_date": "2024-10-12"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "18",
+          "name": "Wireless Charger",
+          "price": 29.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Noah Adams",
+          "rating": 0,
+          "comment": "Excellent sound quality and very portable."
+        },
+        {
+          "user": "Isabella Nelson",
+          "rating": 0.5,
+          "comment": "Great speaker, but the battery life could be better."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Wireless Charger",
+      "description": "Fast wireless charger compatible with various devices.",
+      "Image": "https://wallpapers.com/images/file/wireless-charging-2048-x-1365-wallpaper-9pzqmauuyo8vwey5.jpg",
+      "price": 29.99,
+      "rating": 2.4,
+      "ratings_c2unt": 95,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "100g",
+      "material": "Plastic",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "CHARGER5",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "17",
+          "name": "Bluetooth Speaker",
+          "price": 79.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Emma Clark",
+          "rating": 2.5,
+          "comment": "Works well, but a bit slow to charge."
+        },
+        {
+          "user": "Liam Thompson",
+          "rating": 2.3,
+          "comment": "Good charger, but it heats up slightly."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Fitness Tracker",
+      "description": "Wearable fitness tracker with heart rate monitoring.",
+      "Image": "https://static.vecteezy.com/system/resources/previews/002/082/042/original/fitness-tracker-interface-ui-icon-background-sport-pedometer-smart-watch-template-vector.jpg",
+      "price": 119.99,
+      "rating": 2.7,
+      "ratings_c2unt": 90,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "50g",
+      "material": "Silicone",
+      "color_options": ["#4B5563", "#9CA3AF"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 15,
+          "discount_code": "FITNESS15",
+          "expiry_date": "2024-10-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "20",
+          "name": "Smartwatch",
+          "price": 199.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Aiden Young",
+          "rating": 2,
+          "comment": "Accurate tracking and comfortable to wear."
+        },
+        {
+          "user": "Olivia King",
+          "rating": 2.6,
+          "comment": "Great features, but the app could use improvements."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Smartwatch",
+      "description": "Smartwatch with advanced health tracking and notifications.",
+      "Image": "https://cdn.wallpapersafari.com/85/73/6HhYpj.jpg",
+      "price": 199.99,
+      "rating": 2.8,
+      "ratings_c2unt": 75,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "80g",
+      "material": "Aluminum, Silicone",
+      "color_options": ["#1F2937", "#F9FAFB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 20,
+          "discount_code": "WATCH20",
+          "expiry_date": "2024-10-25"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "19",
+          "name": "Fitness Tracker",
+          "price": 119.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Ethan Roberts",
+          "rating": 2,
+          "comment": "Excellent smartwatch, worth the price."
+        },
+        {
+          "user": "Sophia Lee",
+          "rating": 2.7,
+          "comment": "Great features, but a bit bulky."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Headphones",
+      "description": "Noise-cancelling headphones with high-fidelity sound.",
+      "Image": "https://wallpaperaccess.com/full/2068799.jpg",
+      "price": 159.99,
+      "rating": 2.5,
+      "ratings_c2unt": 85,
+      "category": "Electronics",
+      "stock_availability": "In Stock",
+      "weight": "250g",
+      "material": "Plastic, Leather",
+      "color_options": ["#000000", "#D1D5DB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 25,
+          "discount_code": "HEADPHONES25",
+          "expiry_date": "2024-10-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "22",
+          "name": "Headphone Stand",
+          "price": 19.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Mia Harris",
+          "rating": 2.8,
+          "comment": "Fantastic sound quality and comfortable fit."
+        },
+        {
+          "user": "Noah Clark",
+          "rating": 2.2,
+          "comment": "Good noise-cancellation, but a bit heavy."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Headphone Stand",
+      "description": "Stylish stand to hold headphones when not in use.",
+      "Image": "https://cdn.thecoolist.com/wp-content/uploads/2017/07/ROOMs-Audio-Line-Typ-FS-S-headphone-stand.jpg",
+      "price": 19.99,
+      "rating": 2.3,
+      "ratings_c2unt": 60,
+      "category": "Accessories",
+      "stock_availability": "In Stock",
+      "weight": "200g",
+      "material": "Wood",
+      "color_options": ["#F3F4F6", "#F4F4F5"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "STAND5",
+          "expiry_date": "2024-10-05"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "21",
+          "name": "Headphones",
+          "price": 159.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Emma Baker",
+          "rating": 2.5,
+          "comment": "Nice stand, fits well with my desk."
+        },
+        {
+          "user": "Jacob Davis",
+          "rating": 2.1,
+          "comment": "Good quality, but could be more stable."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Desk Lamp",
+      "description": "Adjustable desk lamp with LED lighting and touch controls.",
+      "Image": "https://wallpapercave.com/wp/wp4067081.jpg",
+      "price": 49.99,
+      "rating": 2.4,
+      "ratings_c2unt": 70,
+      "category": "Home and Office",
+      "stock_availability": "In Stock",
+      "weight": "500g",
+      "material": "Metal, Plastic",
+      "color_options": ["#F9FAFB", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "LAMP10",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "24",
+          "name": "Desk Organizer",
+          "price": 24.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Ava Thompson",
+          "rating": 2.5,
+          "comment": "Great lamp with adjustable brightness."
+        },
+        {
+          "user": "Mason Johnson",
+          "rating": 2.3,
+          "comment": "Good desk lamp, but the touch controls are a bit finicky."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Desk Organizer",
+      "description": "Multi-compartment desk organizer for stationery and accessories.",
+      "Image": "https://th.bing.com/th/id/OIP.wEj6VQI6rGGmnOiW7RyqkAHaEK?rs=1&pid=ImgDetMain",
+      "price": 24.99,
+      "rating": 2.6,
+      "ratings_c2unt": 85,
+      "category": "Home and Office",
+      "stock_availability": "In Stock",
+      "weight": "350g",
+      "material": "Plastic",
+      "color_options": ["#E5E7EB", "#F3F4F6"],
+      "warranty": "6 months",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "ORG5",
+          "expiry_date": "2024-10-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "23",
+          "name": "Desk Lamp",
+          "price": 49.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "James Williams",
+          "rating": 2.7,
+          "comment": "Very practical and fits well on my desk."
+        },
+        {
+          "user": "Sophia Wilson",
+          "rating": 2.5,
+          "comment": "Great organizer, but could use more compartments."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Smart Thermostat",
+      "description": "Wi-Fi enabled smart thermostat for efficient home temperature control.",
+      "Image": "https://designwell365.com/wp-content/uploads/2022/10/Alarm.com-Smart-Thermostat-HD.jpg",
+      "price": 149.99,
+      "rating": 1.7,
+      "ratings_c1unt": 120,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "200g",
+      "material": "Plastic",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "2 years",
+      "discounts": [
+        {
+          "discount_amount": 20,
+          "discount_code": "THERMO20",
+          "expiry_date": "2024-10-25"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "26",
+          "name": "Smart Light Bulb",
+          "price": 29.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Lucas Martinez",
+          "rating": 1.8,
+          "comment": "Works perfectly and easy to install."
+        },
+        {
+          "user": "Ella Robinson",
+          "rating": 1.6,
+          "comment": "Great thermostat, but the app can be slow."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Smart Light Bulb",
+      "description": "LED smart light bulb with adjustable brightness and color temperature.",
+      "Image": "https://www.vitalux.al/wp-content/uploads/2020/07/smart-lighting.jpg",
+      "price": 29.99,
+      "rating": 1.5,
+      "ratings_c1unt": 100,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "60g",
+      "material": "Glass, Plastic",
+      "color_options": ["#F9FAFB", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 5,
+          "discount_code": "BULB5",
+          "expiry_date": "2024-10-30"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "25",
+          "name": "Smart Thermostat",
+          "price": 149.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Mia Harris",
+          "rating": 1.7,
+          "comment": "Easy to set up and great color options."
+        },
+        {
+          "user": "Daniel Brown",
+          "rating": 1.3,
+          "comment": "Good bulb, but the app could be improved."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Electric Kettle",
+      "description": "Rapid boiling electric kettle with automatic shut-off.",
+      "Image": "https://www.seriouseats.com/thmb/1fZ41AssnrvKgpQCavFladnt0VA=/1500x1125/filters:fill(auto,1)/20220811-EletricKettles-AmandaSuarez04-00898decf9e6428090ce3d3e620fa38f.JPG",
+      "price": 39.99,
+      "rating": 1.4,
+      "ratings_c1unt": 85,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "1kg",
+      "material": "Stainless Steel",
+      "color_options": ["#E5E7EB", "#F9FAFB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "KETTLE10",
+          "expiry_date": "2024-10-10"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "28",
+          "name": "Coffee Maker",
+          "price": 99.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Aiden Young",
+          "rating": 1.5,
+          "comment": "Boils quickly and has a nice design."
+        },
+        {
+          "user": "Zoe Smith",
+          "rating": 1.3,
+          "comment": "Good kettle, but a bit noisy."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Coffee Maker",
+      "description": "Programmable coffee maker with brew strength control.",
+      "Image": "https://wallpapercrafter.com/desktop2/864752-coffee-maker-coffee-coffee-shop-coffee-drink.jpg",
+      "price": 99.99,
+      "rating": 1.6,
+      "ratings_c1unt": 95,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "1.5kg",
+      "material": "Plastic, Glass",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 15,
+          "discount_code": "COFFEE15",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "27",
+          "name": "Electric Kettle",
+          "price": 39.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Ella White",
+          "rating": 1.7,
+          "comment": "Makes great coffee and is easy to use."
+        },
+        {
+          "user": "David Martinez",
+          "rating": 1.5,
+          "comment": "Good coffee maker, but the water reservoir is small."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Air Purifier",
+      "description": "HEPA air purifier with multiple filtration stages.",
+      "Image": "https://img.freepik.com/premium-photo/closeup-air-purifier-with-view-room-visible-background_124507-148402.jpg",
+      "price": 199.99,
+      "rating": 1.8,
+      "ratings_c1unt": 110,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "3kg",
+      "material": "Plastic",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "2 years",
+      "discounts": [
+        {
+          "discount_amount": 30,
+          "discount_code": "AIR30",
+          "expiry_date": "2024-10-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "30",
+          "name": "Dehumidifier",
+          "price": 159.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Emily Adams",
+          "rating": 1,
+          "comment": "Excellent air purifier, very effective."
+        },
+        {
+          "user": "Michael Green",
+          "rating": 1.7,
+          "comment": "Good purifier, but a bit noisy on high settings."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Dehumidifier",
+      "description": "Compact dehumidifier for removing excess moisture from the air.",
+      "Image": "https://img.freepik.com/premium-photo/dehumidifier-hd-8k-wallpaper-stock-photographic-image_890746-19796.jpg",
+      "price": 159.99,
+      "rating": 3.2,
+      "ratings_c0unt": 80,
+      "category": "Home Appliances",
+      "stock_availability": "In Stock",
+      "weight": "2kg",
+      "material": "Plastic",
+      "color_options": ["#F9FAFB", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 20,
+          "discount_code": "DEHUM20",
+          "expiry_date": "2024-10-25"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "29",
+          "name": "Air Purifier",
+          "price": 199.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Lucas White",
+          "rating": 3.6,
+          "comment": "Works well, but the tank needs to be emptied often."
+        },
+        {
+          "user": "Olivia Brown",
+          "rating": 3.4,
+          "comment": "Good dehumidifier, but a bit noisy."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Fitness Tracker",
+      "description": "Wearable fitness tracker with heart rate monitoring and GPS.",
+      "Image": "https://wallpapercave.com/wp/wp10556294.jpg",
+      "price": 89.99,
+      "rating": 3.6,
+      "ratings_c0unt": 130,
+      "category": "Wearables",
+      "stock_availability": "In Stock",
+      "weight": "50g",
+      "material": "Plastic, Silicone",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 10,
+          "discount_code": "FITNESS10",
+          "expiry_date": "2024-10-15"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "32",
+          "name": "Smart Watch",
+          "price": 199.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Liam Johnson",
+          "rating": 3.7,
+          "comment": "Great tracker with accurate heart rate monitoring."
+        },
+        {
+          "user": "Ava Lee",
+          "rating": 3.5,
+          "comment": "Good fitness tracker, but the battery life could be better."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Smart Watch",
+      "description": "Advanced smartwatch with fitness tracking and notifications.",
+      "Image": "https://th.bing.com/th/id/R.54bd0f20d38ef2066787bd90589ea329?rik=m2zPSOCWJthd%2bw&pid=ImgRaw&r=0",
+      "price": 199.99,
+      "rating": 3.8,
+      "ratings_c0unt": 150,
+      "category": "Wearables",
+      "stock_availability": "In Stock",
+      "weight": "60g",
+      "material": "Metal, Glass",
+      "color_options": ["#F3F4F6", "#E5E7EB"],
+      "warranty": "1 year",
+      "discounts": [
+        {
+          "discount_amount": 20,
+          "discount_code": "WATCH20",
+          "expiry_date": "2024-10-20"
+        }
+      ],
+      "related_products": [
+        {
+          "id": "31",
+          "name": "Fitness Tracker",
+          "price": 89.99
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Noah Davis",
+          "rating": 3.9,
+          "comment": "Excellent smartwatch with a lot of features."
+        },
+        {
+          "user": "Mia Brown",
+          "rating": 3.7,
+          "comment": "Great watch, but the price is a bit high."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "1",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "2",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "3",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "4",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "5",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "6",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "7",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "8",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "9",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "10",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "11",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "12",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "13",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "14",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "15",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "16",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "17",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "18",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "19",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "20",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "21",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "22",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "23",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "24",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "25",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "26",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "27",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "28",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "29",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "30",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "31",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    },
+    {
+      "id": "32",
+      "url": "https://via.placeholder.com/300.png/09f/fff"
+    }
+  ]
+}
