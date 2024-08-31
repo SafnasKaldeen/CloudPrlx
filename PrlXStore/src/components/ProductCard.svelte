@@ -21,7 +21,10 @@
 </script>
 
 <div
-	class="card bg-zinc-900 w-full max-w-xs hover:glass transition-all duration-300 transform hover:scale-105 flex flex-col no-underline text-white"
+	class="card bg-zinc-900 w-full max-w-xs hover:glass transition-all duration-300 transform hover:scale-105 flex flex-col no-underline text-white hover:cursor-pointer"
+	on:click={() => {
+		window.location.href = `/product/${product.id}`;
+	}}
 >
 	<div class="relative w-full h-48 rounded-t-lg overflow-hidden">
 		<img
@@ -45,18 +48,14 @@
 		<!-- Divider -->
 		<div class="flex items-center justify-between mb-2">
 			<h3 class="text-sm text-gray-400 font-bold">Ratings count:</h3>
-			<span>
-				<p class="text-sm font-bold">{product.ratings_count}</p>
-			</span>
+			<p class="text-sm font-bold">{product.ratings_count}</p>
 		</div>
 		<hr class="my-2 border-gray-600" />
 
 		<!-- Display category -->
 		<div class="flex items-center justify-between mb-2">
-			<h3 class="text-sm text-gray-400 font-bold">Category Name:</h3>
-			<span>
-				<p class="text-sm font-bold">{product.category}</p>
-			</span>
+			<h3 class="text-sm text-gray-400 font-bold">Category:</h3>
+			<p class="text-sm font-bold">{product.category}</p>
 		</div>
 		<hr class="my-2 border-gray-600" />
 
@@ -69,6 +68,12 @@
 </div>
 
 <style>
+	/* Ensure the anchor tag does not affect the card layout */
+	a {
+		display: block; /* Make anchor a block-level element */
+		text-decoration: none; /* Remove underline */
+	}
+
 	/* Optional custom styles for ProductCard if needed */
 	.card {
 		border-radius: 0.5rem; /* Adjust border radius if needed */

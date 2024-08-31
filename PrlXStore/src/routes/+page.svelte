@@ -1,4 +1,8 @@
 <script>
+	import NavBar from '../components/NavBar.svelte';
+	import Aside from '../components/Aside.svelte';
+	import '../app.css'; // Ensure Tailwind CSS and any other styles are included
+
 	import { onMount } from 'svelte';
 	import ProductCard from '../components/ProductCard.svelte';
 
@@ -129,73 +133,94 @@
 	$: Crumbs;
 </script>
 
-<h2 class="text-4xl font-bold text-center mb-8 text-white">Featured Products</h2>
+<!-- Main container for the entire layout -->
+<div class="flex flex-col h-screen bg-black">
+	<!-- Navbar at the top of the layout -->
+	<NavBar />
 
-<!-- Breadcrumb Section -->
-<nav aria-label="breadcrumb">
-	<ul class="breadcrumb">
-		{#if Object.keys(queryParams).length > 0}
-			{#each Object.entries(Crumbs) as [key, value]}
-				{#if visibleBreadcrumbs.has(key)}
-					<li class="breadcrumb-item" on:click={() => handleRemoveFilter(key)}>
-						<span class="font-semibold">{key}: </span>
-						<span>{value}</span>
-					</li>
-				{/if}
-			{/each}
+	<!-- Main content container with sidebar and main content area -->
+	<div class="flex flex-1 overflow-hidden">
+		<!-- Aside component (side navigation) -->
+		<Aside />
 
-			<li class="breadcrumb-item">
-				<span class="font-semibold">Page: </span>
-				<span>{currentPage}</span>
-			</li>
-		{/if}
-	</ul>
-</nav>
+		<!-- Main Content Area -->
+		<main class="flex-1 bg-black overflow-y-auto">
+			<div class="max-w-7xl mx-auto">
+				<h2 class="text-4xl font-bold text-center mb-8 text-white">Featured Products</h2>
 
-<!-- Products Section -->
-{#if loading}
-	<div class="flex flex-col items-center justify-center min-h-screen">
-		<div class="flex items-center justify-center space-x-4">
-			<div
-				class="w-12 h-12 border-4 border-t-4 border-blue-500 border-solid rounded-full animate-spin"
-			></div>
-			<p class="text-blue-300 text-lg font-semibold">Loading...</p>
-		</div>
-	</div>
-{:else if show_products}
-	<section id="features">
-		<div>
-			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-				{#each products as product}
-					<div class="flex">
-						<ProductCard {product} class="w-full h-full" />
+				<!-- Breadcrumb Section -->
+				<nav aria-label="breadcrumb">
+					<ul class="breadcrumb">
+						{#if Object.keys(queryParams).length > 0}
+							{#each Object.entries(Crumbs) as [key, value]}
+								{#if visibleBreadcrumbs.has(key)}
+									<li class="breadcrumb-item" on:click={() => handleRemoveFilter(key)}>
+										<span class="font-semibold">{key}: </span>
+										<span>{value}</span>
+									</li>
+								{/if}
+							{/each}
+
+							<li class="breadcrumb-item">
+								<span class="font-semibold">Page: </span>
+								<span>{currentPage}</span>
+							</li>
+						{/if}
+					</ul>
+				</nav>
+
+				<!-- Products Section -->
+				{#if loading}
+					<div class="flex flex-col items-center justify-center min-h-screen">
+						<div class="flex items-center justify-center space-x-4">
+							<div
+								class="w-12 h-12 border-4 border-t-4 border-blue-500 border-solid rounded-full animate-spin"
+							></div>
+							<p class="text-blue-300 text-lg font-semibold">Loading...</p>
+						</div>
 					</div>
-				{/each}
+				{:else if show_products}
+					<section id="features">
+						<div>
+							<div
+								class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-2 sm:content-center"
+							>
+								{#each products as product}
+									<div class="flex">
+										<ProductCard {product} class="w-full h-full" />
+									</div>
+								{/each}
+							</div>
+							<div class="join flex justify-center mt-8">
+								<button
+									on:click={() => handlePageChange(currentPage - 1)}
+									class="join-item btn"
+									disabled={currentPage <= 1}
+								>
+									«
+								</button>
+								<button class="join-item btn">
+									Page {currentPage}
+								</button>
+								<button
+									on:click={() => handlePageChange(currentPage + 1)}
+									class="join-item btn"
+									disabled={currentPage >= totalPages}
+								>
+									»
+								</button>
+							</div>
+						</div>
+					</section>
+				{:else if error}
+					<p class="text-red-500 text-center">{error}</p>
+				{/if}
+
+				<!-- Slot for child content to be rendered here -->
 			</div>
-			<div class="join flex justify-center mt-8">
-				<button
-					on:click={() => handlePageChange(currentPage - 1)}
-					class="join-item btn"
-					disabled={currentPage <= 1}
-				>
-					«
-				</button>
-				<button class="join-item btn">
-					Page {currentPage}
-				</button>
-				<button
-					on:click={() => handlePageChange(currentPage + 1)}
-					class="join-item btn"
-					disabled={currentPage >= totalPages}
-				>
-					»
-				</button>
-			</div>
-		</div>
-	</section>
-{:else if error}
-	<p class="text-red-500 text-center">{error}</p>
-{/if}
+		</main>
+	</div>
+</div>
 
 <style>
 	/* Join button styles */

@@ -10,7 +10,7 @@
 	onMount(async () => {
 		try {
 			categories = await fetchCategories();
-			console.log('cached categories:', categories);
+			// console.log('cached categories:', categories);
 		} catch (err) {
 			error = err.message;
 		}

@@ -23,7 +23,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "MOUSE5",
           "expiry_date": "2024-09-30"
         }
@@ -64,7 +64,7 @@
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 3,
+          "discount_percentage": 3,
           "discount_code": "PAD3",
           "expiry_date": "2024-09-30"
         }
@@ -98,14 +98,14 @@
       "rating": 3.7,
       "ratings_count": 150,
       "category": "Electronics",
-      "stock_availability": "In Stock",
+      "stock_availability": "Limited Stock",
       "weight": "300g",
       "material": "Plastic, Fabric",
       "color_options": ["#000000", "#EF4444"],
       "warranty": "2 years",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "SPEAKER10",
           "expiry_date": "2024-09-15"
         }
@@ -146,7 +146,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "STAND5",
           "expiry_date": "2024-10-01"
         }
@@ -187,7 +187,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 20,
+          "discount_percentage": 20,
           "discount_code": "WATCH20",
           "expiry_date": "2024-10-01"
         }
@@ -221,14 +221,14 @@
       "rating": 2.4,
       "ratings_count": 40,
       "category": "Accessories",
-      "stock_availability": "In Stock",
+      "stock_availability": "Out of Stock",
       "weight": "20g",
       "material": "Silicone",
       "color_options": ["#000000", "#1E40AF", "#EF4444"],
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "BAND5",
           "expiry_date": "2024-09-30"
         }
@@ -269,7 +269,7 @@
       "warranty": "2 years",
       "discounts": [
         {
-          "discount_amount": 50,
+          "discount_percentage": 50,
           "discount_code": "MONITOR50",
           "expiry_date": "2024-10-15"
         }
@@ -303,18 +303,12 @@
       "rating": 4.1,
       "ratings_count": 55,
       "category": "Accessories",
-      "stock_availability": "In Stock",
+      "stock_availability": "Out of Stock",
       "weight": "300g",
       "material": "Metal",
       "color_options": ["#000000", "#D1D5DB"],
       "warranty": "1 year",
-      "discounts": [
-        {
-          "discount_amount": 5,
-          "discount_code": "STAND5",
-          "expiry_date": "2024-10-01"
-        }
-      ],
+      "discounts": [],
       "related_products": [
         {
           "id": "7",
@@ -351,7 +345,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 15,
+          "discount_percentage": 15,
           "discount_code": "KEYBOARD15",
           "expiry_date": "2024-09-20"
         }
@@ -392,7 +386,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "MOUSE10",
           "expiry_date": "2024-09-25"
         }
@@ -431,13 +425,7 @@
       "material": "Plastic",
       "color_options": ["#000000"],
       "warranty": "1 year",
-      "discounts": [
-        {
-          "discount_amount": 10,
-          "discount_code": "WEBCAM10",
-          "expiry_date": "2024-10-05"
-        }
-      ],
+      "discounts": [],
       "related_products": [
         {
           "id": "12",
@@ -474,7 +462,7 @@
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "STAND5",
           "expiry_date": "2024-10-01"
         }
@@ -515,7 +503,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "CHARGER10",
           "expiry_date": "2024-10-10"
         }
@@ -556,7 +544,7 @@
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 2,
+          "discount_percentage": 2,
           "discount_code": "CABLE2",
           "expiry_date": "2024-09-30"
         }
@@ -597,7 +585,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 50,
+          "discount_percentage": 50,
           "discount_code": "CAMERA50",
           "expiry_date": "2024-10-20"
         }
@@ -636,13 +624,7 @@
       "material": "Nylon",
       "color_options": ["#000000"],
       "warranty": "6 months",
-      "discounts": [
-        {
-          "discount_amount": 5,
-          "discount_code": "CASE5",
-          "expiry_date": "2024-10-15"
-        }
-      ],
+      "discounts": [],
       "related_products": [
         {
           "id": "15",
@@ -679,7 +661,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "SPEAKER10",
           "expiry_date": "2024-10-12"
         }
@@ -720,7 +702,7 @@
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "CHARGER5",
           "expiry_date": "2024-10-15"
         }
@@ -761,7 +743,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 15,
+          "discount_percentage": 15,
           "discount_code": "FITNESS15",
           "expiry_date": "2024-10-20"
         }
@@ -802,7 +784,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 20,
+          "discount_percentage": 20,
           "discount_code": "WATCH20",
           "expiry_date": "2024-10-25"
         }
@@ -843,7 +825,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 25,
+          "discount_percentage": 25,
           "discount_code": "HEADPHONES25",
           "expiry_date": "2024-10-30"
         }
@@ -884,7 +866,7 @@
       "warranty": "6 months",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "STAND5",
           "expiry_date": "2024-10-05"
         }
@@ -925,8 +907,13 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "LAMP10",
+          "expiry_date": "2024-10-15"
+        },
+        {
+          "discount_percentage": 5,
+          "discount_code": "OFFICE5",
           "expiry_date": "2024-10-15"
         }
       ],
@@ -959,18 +946,12 @@
       "rating": 2.6,
       "ratings_c2unt": 85,
       "category": "Home and Office",
-      "stock_availability": "In Stock",
+      "stock_availability": "Limited Stock",
       "weight": "350g",
       "material": "Plastic",
       "color_options": ["#E5E7EB", "#F3F4F6"],
       "warranty": "6 months",
-      "discounts": [
-        {
-          "discount_amount": 5,
-          "discount_code": "ORG5",
-          "expiry_date": "2024-10-20"
-        }
-      ],
+      "discounts": [],
       "related_products": [
         {
           "id": "23",
@@ -1007,7 +988,7 @@
       "warranty": "2 years",
       "discounts": [
         {
-          "discount_amount": 20,
+          "discount_percentage": 20,
           "discount_code": "THERMO20",
           "expiry_date": "2024-10-25"
         }
@@ -1048,7 +1029,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 5,
+          "discount_percentage": 5,
           "discount_code": "BULB5",
           "expiry_date": "2024-10-30"
         }
@@ -1089,9 +1070,14 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 10,
+          "discount_percentage": 10,
           "discount_code": "KETTLE10",
           "expiry_date": "2024-10-10"
+        },
+        {
+          "discount_percentage": 5,
+          "discount_code": "WELCOME5",
+          "expiry_date": "2024-09-30"
         }
       ],
       "related_products": [
@@ -1130,7 +1116,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 15,
+          "discount_percentage": 15,
           "discount_code": "COFFEE15",
           "expiry_date": "2024-10-15"
         }
@@ -1164,14 +1150,14 @@
       "rating": 1.8,
       "ratings_c1unt": 110,
       "category": "Home Appliances",
-      "stock_availability": "In Stock",
+      "stock_availability": "Limited Stock",
       "weight": "3kg",
       "material": "Plastic",
       "color_options": ["#F3F4F6", "#E5E7EB"],
       "warranty": "2 years",
       "discounts": [
         {
-          "discount_amount": 30,
+          "discount_percentage": 30,
           "discount_code": "AIR30",
           "expiry_date": "2024-10-20"
         }
@@ -1212,7 +1198,7 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 20,
+          "discount_percentage": 20,
           "discount_code": "DEHUM20",
           "expiry_date": "2024-10-25"
         }
@@ -1251,13 +1237,7 @@
       "material": "Plastic, Silicone",
       "color_options": ["#F3F4F6", "#E5E7EB"],
       "warranty": "1 year",
-      "discounts": [
-        {
-          "discount_amount": 10,
-          "discount_code": "FITNESS10",
-          "expiry_date": "2024-10-15"
-        }
-      ],
+      "discounts": [],
       "related_products": [
         {
           "id": "32",
@@ -1294,9 +1274,14 @@
       "warranty": "1 year",
       "discounts": [
         {
-          "discount_amount": 20,
+          "discount_percentage": 20,
           "discount_code": "WATCH20",
           "expiry_date": "2024-10-20"
+        },
+        {
+          "discount_percentage": 10,
+          "discount_code": "SMART10",
+          "expiry_date": "2024-10-15"
         }
       ],
       "related_products": [

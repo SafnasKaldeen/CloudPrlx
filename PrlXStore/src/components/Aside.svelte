@@ -54,7 +54,7 @@
 
 	<!-- Mobile Drawer side, toggleable on mobile -->
 	<div
-		class="mobile-drawer-side fixed top-0 left-0 h-screen overflow-y-auto bg-black bg-opacity-80 w-64 transform -translate-x-full opacity-0 lg:hidden"
+		class="z-30 mobile-drawer-side fixed top-0 left-0 h-screen overflow-y-auto bg-black bg-opacity-80 w-64 transform -translate-x-full opacity-0 lg:hidden"
 	>
 		<!-- Overlay that appears when drawer is open on mobile -->
 		<label class="drawer-overlay lg:hidden" aria-label="close sidebar" on:click={closeMobileDrawer}
@@ -62,18 +62,16 @@
 
 		<div class="p-4 text-white">
 			<!-- Content of the drawer -->
-			<nav class="flex flex-col space-y-4">
-				<a href="#home" class="hover:underline" on:click={closeMobileDrawer}>Home</a>
-				<a href="#features" class="hover:underline" on:click={closeMobileDrawer}>Features</a>
-				<a href="#about" class="hover:underline" on:click={closeMobileDrawer}>About</a>
-				<a href="#contact" class="hover:underline" on:click={closeMobileDrawer}>Contact</a>
-			</nav>
+			<!-- Content of the drawer -->
+			<Category />
+			<Sort />
+			<PriceRange />
 		</div>
 	</div>
 
 	<!-- Desktop Drawer side, always visible on large screens -->
 	<div
-		class="desktop-drawer-side hidden lg:block lg:relative lg:w-64 lg:h-screen lg:overflow-y-auto bg-black bg-opacity-100"
+		class="desktop-drawer-side hidden lg:block lg:relative lg:w-64 lg:h-screen lg:overflow-y-auto bg-opacity-100"
 	>
 		<div class="p-4 text-white">
 			<!-- Content of the drawer -->
