@@ -42,7 +42,7 @@
 				category: category,
 				sortBy: sortBy
 			};
-			console.log('Updated Store:', updatedStore); // Log the updated store state
+			// console.log('Updated Store:', updatedStore); // Log the updated store state
 			return updatedStore;
 		});
 

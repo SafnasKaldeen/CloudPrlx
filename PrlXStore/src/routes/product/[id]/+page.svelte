@@ -2,7 +2,7 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 	const product = data.props.product[0];
-	console.log(product);
+	// console.log(product);
 
 	import NavBar from '../../../components/NavBar.svelte';
 	import Aside from '../../../components/Aside.svelte';

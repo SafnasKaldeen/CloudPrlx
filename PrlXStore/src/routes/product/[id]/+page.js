@@ -1,7 +1,7 @@
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
 	const { id } = params;
-	console.log('params.id', id);
+	// console.log('params.id', id);
 
 	try {
 		const response = await fetch(`http://localhost:3000/products?id=${id}`);
@@ -15,7 +15,7 @@ export async function load({ params }) {
 			}
 		};
 	} catch (error) {
-		console.error('Error fetching product:', error);
+		// console.error('Error fetching product:', error);
 		return {
 			props: {
 				product: null,
