@@ -17,11 +17,11 @@
 
 	function StockStatus(stock) {
 		if (stock === 'In Stock') {
-			return 'text-sm text-green-500 font-medium';
+			return 'text-sm text-white bg-green-500 font-medium';
 		} else if (stock === 'Limited Stock') {
-			return 'text-sm text-yellow-500 font-medium';
+			return 'text-sm text-white bg-yellow-500 font-medium';
 		} else {
-			return 'text-sm text-red-500 font-medium';
+			return 'text-sm text-white bg-red-500 font-medium';
 		}
 	}
 </script>
@@ -74,7 +74,9 @@
 								)}`}>{product.rating} ★</span
 							>
 							<!-- Stock Status -->
-							<span class={StockStatus(product.stock_availability)}>
+							<span
+								class={`px-2 py-1 text-xs font-semibold whitespace-nowrap text-white rounded ${StockStatus(product.stock_availability)}`}
+							>
 								{product.stock_availability}
 							</span>
 						</div>
