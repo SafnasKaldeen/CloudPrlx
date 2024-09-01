@@ -10,7 +10,7 @@ Ensure you have Node.js (v14 or later), npm (Node Package Manager), and Tailwind
 
 1. **Clone the Repository**: Clone the project repository to your local machine using Git:  
    ```bash
-   git clone https://github.com/yourusername/yourproject.git  
-   cd PrlXStore
+   git clone https://github.com/yourusername/yourproject.git](https://github.com/SafnasKaldeen/CloudPrlx 
+   cd CloudPrlx
 
 Follow the Readme files to run backend and front end
